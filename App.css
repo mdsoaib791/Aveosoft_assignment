@@ -1,0 +1,45 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+*{
+  margin: 0px;
+  padding: 0px;
+  background-color: #E5E4E2;
+}
+.App{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+.p-data{
+  height: 200px;
+  width: 200px;
+  object-fit: cover;
+  border:none;
+  border-radius: 10px;
+  max-width: 200px;
+  text-align: center;
+  justify-content: center;
+  margin: 12px 0px;
+ box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  background-color:#F0FFFF ;
+}
+p{
+  background-color: #F0FFFF;
+}
+.product-item{
+  display: grid;
+  margin-top: 24px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap:10px ;
+  align-items: baseline;
+}
+.product-category{
+  margin: 0px; 
+  justify-content: baseline;
+
+}
+.pr{
+font-size: 16px;
+}
